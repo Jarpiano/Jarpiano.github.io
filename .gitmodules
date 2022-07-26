@@ -1,0 +1,6 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/gurusabarish/hugo-profile
+[submodule "hugo-profile"]
+	path = themes/hugo-profile
+	url = https://github.com/gurusabarish/hugo-profile
