@@ -4,9 +4,9 @@ A repository for Jarpiano's public portfolio website
 
 ## Details
 
-Author: Jared Baron Panares
-Framework: Hugo
-Languages: HTML, CSS, Javascript
+Author: Jared Baron Panares  
+Framework: Hugo  
+Languages: HTML, CSS  
 Theme: Hugo Profile by gurusabarish
 
 ## See also
