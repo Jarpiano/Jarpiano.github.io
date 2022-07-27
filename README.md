@@ -6,7 +6,7 @@ A repository for Jarpiano's public portfolio website
 
 Author: Jared Baron Panares  
 Framework: Hugo  
-Languages: HTML, CSS, Javascript  
+Languages: HTML, CSS  
 Theme: Hugo Profile by gurusabarish
 
 ## See also
