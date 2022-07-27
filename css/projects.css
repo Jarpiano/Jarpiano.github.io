@@ -45,7 +45,7 @@
 }
 
 #projects .card:hover .card-img-top {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: all 0.3s ease-out;
 }
 

@@ -93,7 +93,7 @@ header .navbar {
 
 #hero h2 {
     font-size: clamp(40px, 8vw, 80px);
-    color: var(--primary-color) !important;
+    color: var(--title-color);
 }
 
 #hero h3 {
