@@ -1,11 +1,10 @@
 # Change baseURL to web url
 baseURL: "http://jarpiano.github.io/"
 languageCode: "en-us"
-title: "JP Website"
+title: "Jarpiano | Jared Baron Panares"
 theme: hugo-profile
 
 Paginate: 3
-# googleAnalytics:
 
 markup:
   goldmark:
@@ -14,7 +13,6 @@ markup:
 
 params:
   title: "Portfolio"
-  # staticPath: ""  # The path to serve the static files from
   favicon: "/images/logo-v2.png"
 
   theme:
@@ -171,7 +169,7 @@ params:
     items:
       - title: JP Website
         content: |-
-         A portfolio site for me! It was made using the Hugo framework, forked from gurusabarish's Hugo Profile theme.
+         A portfolio site for me! It was made using the Hugo framework with gurusabarish's Hugo Profile theme.
         image: /images/project-logo.png
         featured:
           name: See Repository
