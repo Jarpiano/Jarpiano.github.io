@@ -169,7 +169,7 @@ params:
     items:
       - title: JP Website
         content: |-
-         A portfolio site for me! It was made using the Hugo framework with gurusabarish's Hugo Profile theme.
+          My personal portfolio site. It was made using the Hugo framework with gurusabarish's Hugo Profile theme.
         image: /images/project-logo.png
         featured:
           name: See Repository
@@ -190,8 +190,8 @@ params:
           - "Python"
       - title: Habitat Pilot
         content: |-
-         A website for my club which is currently a work in progress.
-        image: /images/habitat-logo.pny
+         A website for my volunteering club. A current work in progress.
+        image: /images/habitat-logo.png
         featured:
           name: See Website
           link: https://jarpiano.github.io/habitat-pilot/
