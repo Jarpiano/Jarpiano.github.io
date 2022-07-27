@@ -173,11 +173,11 @@ params:
         image: /images/project-logo.png
         featured:
           name: See Repository
-          link: /#
+          link: https://github.com/Jarpiano/Jarpiano.github.io
         badges:
           - "Hugo"
           - "Bootstrap"
-          - "Javascript"
+          - "HTML"
       - title: Freecodecamp Library
         content: |-
          An assortment of my activities on Freecodecamp which includes certifications.
@@ -188,6 +188,17 @@ params:
           link: https://www.freecodecamp.org/Kyobito
         badges:
           - "Python"
+      - title: Habitat Pilot
+        content: |-
+         A website for my club which is currently a work in progress.
+        image: /images/habitat-logo.pny
+        featured:
+          name: See Website
+          link: https://jarpiano.github.io/habitat-pilot/
+        badges:
+          - "Hugo"
+          - "Bootstrap"
+          - "HTML"
         
 
 
