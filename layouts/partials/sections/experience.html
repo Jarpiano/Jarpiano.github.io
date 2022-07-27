@@ -1,0 +1,42 @@
+{{ if .Site.Params.experience.enable | default false }}
+<section id="experience" class="py-5">
+    <div class="container">
+        <h3 class="text-center">Experience</h3>
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-8 col-lg-8 py-5">
+                <div class="experience-container px-3 pt-2">
+                    <div class="tab-content pb-5 pt-2 bg-transparent primary-font" id="pills-tabContent">
+                        {{ $len := .Site.Params.experience.length}}
+                        {{ range $index, $element := .Site.Params.experience.items }}
+                        <div 
+                            class="tab-pane fade show active bg-transparent" 
+                            role="tabpanel"
+                            id='pills-{{ replace .exptitle " " "-" }}-{{ replace .date " " "-" }}'
+                            aria-labelledby='pills-{{ replace .exptitle " " "-" }}-{{ replace .date " " "-" }}-tab'
+                            style="{{if eq $index 0}} padding-top: 40px; {{end}} padding-bottom: 40px; "
+                        >
+                            <div>
+                                <span class="h4">{{ .exptitle }}</span>
+                                <div class="pb-1">
+                                    <small>{{ .date }}</small>
+                                </div>
+
+                                {{ if .featuredLink.enable | default false }}
+                                <div class="py-2 featuredLink">
+                                    <a class="p-2 px-4 btn btn-outline-primary btn-sm" href={{ .featuredLink.url | default "#" }} target="_blank">
+                                        {{ .featuredLink.name | default "Featured Link" }} 
+                                    </a>
+                                </div>
+                                {{ end }}
+                            </div>
+
+                            {{ .content | markdownify}}
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
