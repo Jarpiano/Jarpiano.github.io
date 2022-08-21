@@ -53,7 +53,7 @@ params:
     intro: "Hello, I'm"
     title: "Jared Baron"
     subtitle: "A Caffeinated Coder"
-    content: "A high school student aspiring to major in computer science. I dabble in programming, cybersecurity, and I'm on my way to learn machine learning."
+    content: "A high school student aspiring to major in computer science. I dabble in programming, cybersecurity, and whatever catches my interests."
     image: /images/me-icon.jpg
     button:
       enable: false
@@ -62,7 +62,7 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://github.com/Kyobito
+          url: https://github.com/Jarpiano
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/jared-baron-panares-841046242/
       customIcons:
@@ -76,7 +76,7 @@ params:
     image: "/images/summer-avatar.jpg"
     # Include this when I find some activities to do: However, when I'm not coding, you can find me
     content: |-
-      I'm Jared Baron Panares, a current high school student at William B. Travis High School. I frequently code in my spare time and seek to always improve.  
+      I'm Jared Baron Panares, a high school student stationed at William B. Travis High School. I frequently code and seek to improve. When I'm not at my des, you can find me traveling, playing guitar, or enjoying a nice cup of coffee. 
     skills:
       enable: true
       title: "Here are some topics I'm interested in:"
@@ -107,7 +107,7 @@ params:
           name: "View profile"
           url: "https://www.freecodecamp.org/Kyobito"
         content: |
-          I have earned the certificate for **Scientific Computing with Python**. I've done about 300 hours of coursework (accourding to FCC) and have completed 5 projects involving Python along the way. At the moment, I'm working towards their Front-end development course.
+          I have earned the certificate for **Scientific Computing with Python**. I've done about 300 hours of coursework (according to FCC) and have completed 5 projects involving Python along the way. At the moment, I'm working towards their Front-end development course.
 
 
   # Education
@@ -132,17 +132,17 @@ params:
           url: "https://www.credly.com/badges/0a307a0c-c351-49ab-ad47-326b83229095/public_url"
       - title: "High School"
         school:
-          name: "William B. Travis high school"
+          name: "William B. Travis High School"
           url: "https://www.fortbendisd.com/ths"
         date: "2020 - Current day"
         score: "" #None
         GPA: "" #Not yet
         content: |-
-          An incoming junior at Travis high school. I've taken Pre-AP Computer Science and AP Computer Science Principles, and I'll soon be taking AP Computer Science A.
+          An incoming junior at Travis high school. I've taken Pre-AP Computer Science, AP Computer Science Principles, and currently taking AP Computer Science A.
           
           Clubs:
             - National Beta Club
-            - National Computer Science Honor Society
+            - Computer Science National Honor Society
             - Habitat for Humanity
 
   # Achievements
@@ -180,21 +180,20 @@ params:
           - "HTML"
       - title: Freecodecamp Library
         content: |-
-         An assortment of my activities on Freecodecamp which includes certifications.
-         images  
+         An assortment of my activities on Freecodecamp which includes certifications.  
         image: /images/fcc-project-logo.jpg
         featured:
           name: See Profile
           link: https://www.freecodecamp.org/Kyobito
         badges:
           - "Python"
-      - title: Habitat Pilot
+      - title: Habitat For Humanity THS
         content: |-
-         A website for my volunteering club. A current work in progress.
+         A website for Travis High School's Habitat For Humanity, a volunteering club I'm in.
         image: /images/habitat-logo.png
         featured:
           name: See Website
-          link: https://jarpiano.github.io/habitat-pilot/
+          link: https://habitat-for-humanity-ths.github.io/
         badges:
           - "Hugo"
           - "Bootstrap"
@@ -212,8 +211,7 @@ params:
   footer:
     recentPosts: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://www.instagram.com
-      facebook: https://www.facebook.com
+      github: https://github.com/Jarpiano
+      linkedin: https://www.linkedin.com/in/jared-baron-panares-841046242/
+      twitter: https://twitter.com/RealJarpiano
+      instagram: https://www.instagram.com/jarpiano/
