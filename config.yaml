@@ -76,7 +76,7 @@ params:
     image: "/images/summer-avatar.jpg"
     # Include this when I find some activities to do: However, when I'm not coding, you can find me
     content: |-
-      I'm Jared Baron Panares, a high school student stationed at William B. Travis High School. I frequently code and seek to improve. When I'm not at my des, you can find me traveling, playing guitar, or enjoying a nice cup of coffee. 
+      I'm Jared Baron Panares, a high school student stationed at William B. Travis High School. I frequently code and seek to improve. When I'm not at my desk, you can find me traveling, playing guitar, or enjoying a nice cup of coffee. 
     skills:
       enable: true
       title: "Here are some topics I'm interested in:"
