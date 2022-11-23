@@ -56,9 +56,9 @@ params:
     content: "A high school student aspiring to major in computer science. I dabble in programming, cybersecurity, and whatever catches my interests."
     image: /images/me-icon.jpg
     button:
-      enable: false
-      name: "Resume"
-      url: "#"
+      enable: true
+      name: "Repository"
+      url: "https://github.com/Jarpiano/Jarpiano.github.io"
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -138,7 +138,7 @@ params:
         score: "" #None
         GPA: "" #Not yet
         content: |-
-          An incoming junior at Travis high school. I've taken Pre-AP Computer Science, AP Computer Science Principles, and currently taking AP Computer Science A.
+          A junior at Travis high school. I've taken Pre-AP Computer Science, AP Computer Science Principles, and currently taking AP Computer Science A.
           
           Clubs:
             - National Beta Club
@@ -160,8 +160,11 @@ params:
         content: Issued by the National Cyber Scholarship Foundation
         url: https://api.badgr.io/public/assertions/twoc2ogWQiawYWcMWnRCUg
       - title: Cyberstart America Gold Award 2020 - 2021
-        content:  Issued by Cyberstart America
+        content: Issued by Cyberstart America
         url: https://api.badgr.io/public/assertions/Ynm53ymtS_OBQM3Z4KwLfg
+      - title: Cyberstart America Gold Award 2022 - 2023
+        content: Issued by Cyberstart America
+        url: https://api.badgr.io/public/assertions/176AfSMPRwCP8fHVzkojSQ
 
   # all images must have an aspect ratio of 1:1, mostly colored, and look alright when expanded
   # projects
