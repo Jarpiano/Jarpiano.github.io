@@ -53,7 +53,8 @@ params:
     intro: "Hello, I'm"
     title: "Jared Baron"
     subtitle: "A Caffeinated Coder"
-    content: "A high school student aspiring to major in computer science. I dabble in programming, cybersecurity, and whatever catches my interests."
+    content: |- 
+      A high school student with aspirations in computer science. I dabble in programming, cybersecurity, and whatever catches my interests.
     image: /images/me-icon.jpg
     button:
       enable: true
@@ -111,7 +112,6 @@ params:
 
 
   # Education
-  # Omit all scores and GPAs
   education:
     enable: true
     # index: true
@@ -167,13 +167,13 @@ params:
         url: https://api.badgr.io/public/assertions/176AfSMPRwCP8fHVzkojSQ
 
   # all images must have an aspect ratio of 1:1, mostly colored, and look alright when expanded
-  # projects
+  # Projects
   projects:
     enable: true
     items:
       - title: JP Website
         content: |-
-          My personal portfolio site. It was made using the Hugo framework with gurusabarish's Hugo Profile theme.
+          My personal portfolio site - made using the Hugo framework with gurusabarish's Hugo Profile theme.
         image: /images/project-logo.png
         featured:
           name: See Repository
@@ -184,7 +184,7 @@ params:
           - "HTML"
       - title: Freecodecamp Library
         content: |-
-         An assortment of my activities on Freecodecamp which includes certifications.  
+         An assortment of my activities on Freecodecamp along with certifications
         image: /images/fcc-project-logo.jpg
         featured:
           name: See Profile
@@ -193,7 +193,7 @@ params:
           - "Python"
       - title: Habitat For Humanity THS
         content: |-
-         A website for Travis High School's Habitat For Humanity, a volunteering club I'm in.
+         A website for the Habitat For Humanity Travis Chapter - made during my time as officer.
         image: /images/habitat-logo.png
         featured:
           name: See Website
@@ -202,6 +202,16 @@ params:
           - "Hugo"
           - "Bootstrap"
           - "HTML"
+      - title: Community Discord Bot
+        content: |-
+          A bot built and personalized for my Discord community - created under an old pseudonym.
+        image: /images/pencil-bot-V2.png
+        featured:
+          name: See Repl
+          link: https://replit.com/@Kyobito/Pencil#main.py
+        badges:
+          - "Bot"
+          - "Python"
         
 
 
