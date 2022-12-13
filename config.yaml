@@ -52,9 +52,9 @@ params:
     enable: true
     intro: "Hello, I'm"
     title: "Jared Baron"
-    subtitle: "A Caffeinated Coder"
+    subtitle: "The Caffeinated Coder"
     content: |- 
-      A high school student with aspirations in computer science. I dabble in programming, cybersecurity, and whatever catches my interests.
+      Innovation is the name of the game and I'm playing. A high school student, curious by nature, with aspirations in computer science. An aficionado in programming, cybersecurity, and web development but can also laugh, love, and live.
     image: /images/me-icon.jpg
     button:
       enable: true
@@ -77,7 +77,7 @@ params:
     image: "/images/summer-avatar.jpg"
     # Include this when I find some activities to do: However, when I'm not coding, you can find me
     content: |-
-      I'm Jared Baron Panares, a high school student stationed at William B. Travis High School. I frequently code and seek to improve. When I'm not at my desk, you can find me traveling, playing guitar, or enjoying a nice cup of coffee. 
+      I'm Jared Baron Panares, a high school student stationed at William B. Travis High School. I'm well-versed in tech topics but always in pursuit of improvement. When I'm not at my desk, you can find me traveling, playing guitar, or enjoying a nice cup of coffee. 
     skills:
       enable: true
       title: "Here are some topics I'm interested in:"
@@ -135,16 +135,17 @@ params:
           name: "William B. Travis High School"
           url: "https://www.fortbendisd.com/ths"
         date: "2020 - Current day"
-        score: "" #None
-        GPA: "" #Not yet
+        score: ""
+        GPA: "" 
         content: |-
           A junior at Travis high school. I've taken Pre-AP Computer Science, AP Computer Science Principles, and currently taking AP Computer Science A.
           
           Clubs:
             - National Beta Club
             - Computer Science National Honor Society
-            - Habitat for Humanity
-            - Decathlon
+            - Habitat for Humanity Travis Chapter
+            - Academic Decathlon
+            - National Honor Society
 
   # Achievements
   achievements:
@@ -204,11 +205,11 @@ params:
           - "HTML"
       - title: Community Discord Bot
         content: |-
-          A bot built and personalized for my Discord community - created under an old pseudonym.
+          A bot built and personalized for my Discord community. It utilizes discord.py and is able to access the Hypixel and Imgur APIs.
         image: /images/pencil-bot-V2.png
         featured:
-          name: See Repl
-          link: https://replit.com/@Kyobito/Pencil#main.py
+          name: See Repository
+          link: https://github.com/Kyobito/Pencils-Latest
         badges:
           - "Bot"
           - "Python"
