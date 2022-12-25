@@ -39,6 +39,19 @@
   }
 }
 
+@keyframes fade-title-gradient {
+    50% {
+        color: #ff2a00;
+    }
+}
+
+@keyframes fade-subtitle-gradient {
+    50% {
+        color: #9E7657;
+        opacity: 1.0;
+    }
+}
+
 /* Header animation */
 @keyframes fade-up {
   0% {
@@ -94,12 +107,22 @@ header .navbar {
 #hero h2 {
     font-size: clamp(40px, 8vw, 80px);
     color: var(--title-color);
+    cursor: pointer;
+}
+
+#hero h2:hover {   
+    animation: fade-title-gradient 2s;
 }
 
 #hero h3 {
     font-size: clamp(40px, 8vw, 60px);
+    cursor: pointer;
     /* color: var(--primary-color) !important; */
     opacity: 0.5;
+}
+
+#hero h3:hover {
+    animation: fade-subtitle-gradient 1s;
 }
 
 #hero p {
