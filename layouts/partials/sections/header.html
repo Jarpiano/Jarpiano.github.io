@@ -54,6 +54,12 @@
                     </li>
                     {{ end }}
 
+                    {{ if and (.Site.Params.skills.enable | default false) (not (.Site.Params.navbar.menus.disableSkills | default false)) }}
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#skills" aria-label="skills">Skills</a>
+                    </li>
+                    {{ end }}
+
                     {{ if and (.Site.Params.experience.enable | default false) (not (.Site.Params.navbar.menus.disableExperience | default false)) }}
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#experience"

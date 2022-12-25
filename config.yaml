@@ -40,6 +40,7 @@ params:
   #  disableEducation: true
   #  disableProjects: true
   #  disableAchievements: true
+  #  disableSkills: true
     
   
   color:
@@ -214,9 +215,7 @@ params:
           link: https://github.com/Kyobito/Pencils-Latest
         badges:
           - "Bot"
-          - "Python"
-        
-
+          - "Python"  
 
   #Contact
   contact:
@@ -224,6 +223,29 @@ params:
     content: You can reach me via email! My inbox is always open for any opportunities regarding computer science and anything similar.
     email: example@gmail.com
     btnName: Contact me
+
+  skills:
+    enable: true
+    items:
+      - icon: fab fa-html5
+        desc: HTML5
+      - icon: fab fa-css3-alt
+        desc: CSS3
+      - icon: fab fa-js
+        desc: JavaScript
+      - icon: fab fa-bootstrap
+        desc: BootStrap
+      - icon: fab fa-sass
+        desc: SASS
+      - icon: fab fa-java
+        desc: Java
+      - icon: fab fa-python
+        desc: Python
+      - desc: git
+      - icon: fab fa-linux
+        desc: Linux
+      - icon: fab fa-windows
+        desc: Windows
 
   footer:
     recentPosts: false
