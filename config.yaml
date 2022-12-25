@@ -54,7 +54,7 @@ params:
     title: "Jared Baron"
     subtitle: "The Caffeinated Coder"
     content: |- 
-      Innovation is the name of the game and I'm playing. A high school student, curious by nature, with aspirations in computer science. An aficionado in programming, cybersecurity, and web development but can also laugh, love, and live.
+      Innovation is the game and I'm the player. A high school student, curious by nature, with aspirations in computer science. An aficionado in programming, cybersecurity, and web development but can also live, laugh, and love.
     image: /images/me-icon.jpg
     button:
       enable: true
@@ -66,9 +66,11 @@ params:
           url: https://github.com/Jarpiano
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/jared-baron-panares-841046242/
-      customIcons:
-        - icon: /fav.png
-          url: "https://gohugo.io/"
+        - icon: fab fa-instagram
+          url: https://www.instagram.com/jarpiano/
+      # customIcons:
+        # - icon: [image path]
+        #   url: [link]
 
   # About
   about:
