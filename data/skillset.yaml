@@ -1,0 +1,24 @@
+items:
+  - icon: fab fa-html5
+    desc: HTML5
+  - icon: fab fa-css3-alt
+    desc: CSS3
+  - icon: fab fa-js
+    desc: JavaScript
+  - icon: fab fa-bootstrap
+    desc: BootStrap
+  - icon: fab fa-sass
+    desc: SASS
+  - icon: fab fa-java
+    desc: Java
+  - icon: fab fa-python
+    desc: Python
+  - icon: fab fa-git-alt
+    desc: git
+  - icon: fab fa-linux
+    desc: Linux
+  - icon: fab fa-windows
+    desc: Windows 
+  - desc: Bash
+  - desc: Hugo
+  - desc: SQL

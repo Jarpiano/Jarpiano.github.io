@@ -4,20 +4,20 @@
         <h3 class="text-center">Skillset</h3>
         <div class="px-0 px-md-5 px-lg-5">
           <div class="row justify-content-center px-3 px-md-5 px-lg-5">
-              {{ range .Site.Params.skills.items }}
-              {{ if .desc }}
-              <div class="col-lg-3 col-4 my-3">
-                  <span class="card h-100" title="{{ .desc }}" target="_blank">
-                      <div class="card-body bg-transparent">
-                          <h5 class="card-title bg-transparent text-center">
-                              <i class="{{ .icon | default "fas fa-terminal"}}"></i>
-                            <span class="description">
-                            {{ .desc }}
-                            </span>
-                        </h5>
-                      </div>
-                  </span>
-              </div>
+                {{ range $index, $element := $.Site.Data.skillset.items }}
+                {{ if .desc }}
+                <div class="col-lg-3 col-4 my-3">
+                    <span class="card h-100 {{ if ge $index 9}}extra{{ end }}" title="{{ .desc }}" target="_blank">
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent text-center">
+                                <i class="{{ .icon | default "fas fa-terminal"}}"></i>
+                                <span class="description">
+                                {{ .desc }}
+                                </span>
+                            </h5>
+                        </div>
+                    </span>
+                </div>
               {{ end }}
               {{ end }}
           </div>
