@@ -55,7 +55,7 @@ params:
     title: "Jared Baron"
     subtitle: "The Caffeinated Coder"
     content: |- 
-      Innovation is the game and I'm the player. A high school student, curious by nature, with aspirations in computer science. An aficionado in programming, cybersecurity, and web development but can also live, laugh, and love.
+      A high school student, curious by nature, with aspirations in computer science. He's an aficionado of programming, cybersecurity, and web development. Currently, he's working towards another GIAC certification.
     image: /images/me-icon.jpg
     button:
       enable: true
@@ -78,9 +78,8 @@ params:
     enable: true
     title: "About Me"
     image: "/images/summer-avatar.jpg"
-    # Include this when I find some activities to do: However, when I'm not coding, you can find me
     content: |-
-      I'm Jared Baron Panares, a high school student stationed at William B. Travis High School. I'm well-versed in tech topics but always in pursuit of improvement. When I'm not at my desk, you can find me traveling, playing guitar, or enjoying a nice cup of coffee. 
+      I'm Jared, a high school student stationed at William B. Travis High School. I'm well-versed in tech topics but always in pursuit of improvement. When I'm not typing away, you can find me reading a book, listening to music, or under the sun.
     skills:
       enable: true
       title: "Here are some topics I'm interested in:"
@@ -154,6 +153,9 @@ params:
   achievements:
     enable: true
     items:
+      - title: National Cyber Scholarship Scholar with Honors 2023
+        content: Issued by the National Cyber Scholarship Foundation
+        utl: https://api.badgr.io/public/assertions/-t0yxooXRribOcXAIC_fGA
       - title: National Cyber Scholarship Finalist 2022
         content: Issued by the National Cyber Scholarship Foundation
         url: https://api.badgr.io/public/assertions/j4y1h3zlSsi-HDLFJcfqDQ
