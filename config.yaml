@@ -218,6 +218,13 @@ params:
         badges:
           - "Bot"
           - "Python"  
+      - title: CyberStart America
+        content: |-
+          Participated in a cybersecurity competition and named NCSF Scholar with Honors.
+        image: /images/ncsf-honors-banner.jpg
+        featured:
+          name: See Page
+          link: http://jarpiano.github.io/blueprint/ncsf/
 
   #Contact
   contact:

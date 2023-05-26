@@ -20,7 +20,7 @@
                             {{ .content }}
                         </div>
                     </div>
-                    {{ if or (.links) (.featured) }}
+                    {{ if or (.links) (.featured) (.page)}}
                     <div class="card-footer py-3">
                         {{ range .links }}
                         <span class="m-1 mx-2">
@@ -33,6 +33,13 @@
                         <span class="float-end">
                             <a class="btn btn-sm" href="{{ .featured.link }}" target="_blank">
                                 {{ .featured.name }}
+                            </a>
+                        </span>
+                        {{ end }}
+                        {{ if .page }}
+                        <span class="float-end">
+                            <a class="btn btn-sm" href="{{ .page.link }}" target="_blank">
+                                {{ .page.name }}
                             </a>
                         </span>
                         {{ end }}

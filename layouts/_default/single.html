@@ -25,7 +25,7 @@
             </div>
           </div>
           {{ if .Params.image }}
-          <div class="featured-image">
+          <div class="featured-image" style="{{ if .Params.center }} text-align: center; {{end}}">
             <img class="img-fluid" src="{{ .Params.image }}" alt="{{ .Title }}">
           </div>
           {{ end }}
