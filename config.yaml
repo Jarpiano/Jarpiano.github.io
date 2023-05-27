@@ -22,7 +22,7 @@ params:
   variants:
     standard: "fas fa-user-tie"
     summer: "fas fa-umbrella-beach"
-    #winter: "fas fa-snowflake"
+    winter: "fas fa-snowflake"
     #autumn: "fab fa-canadian-maple-leaf"
     #spring: "fas fa-leaf"
 
@@ -55,7 +55,7 @@ params:
     title: "Jared Baron"
     subtitle: "The Caffeinated Coder"
     content: |- 
-      A high school student, curious by nature, with aspirations in computer science. He's an aficionado of programming, cybersecurity, and web development. Currently, he's working towards another GIAC certification.
+      A high school student, curious by nature, with aspirations in computer science. An aficionado of programming, cybersecurity, and web development. Working towards another GIAC certification.
     image: /images/me-icon.jpg
     button:
       enable: true
@@ -144,8 +144,8 @@ params:
           
           Clubs:
             - National Beta Club
-            - Computer Science National Honor Society
-            - Habitat for Humanity Travis Chapter
+            - Computer Science National Honor Society ('24 Officer)
+            - Habitat for Humanity Travis Chapter ('23 Officer)
             - Academic Decathlon
             - National Honor Society
 
@@ -159,16 +159,16 @@ params:
       - title: National Cyber Scholarship Finalist 2022
         content: Issued by the National Cyber Scholarship Foundation
         url: https://api.badgr.io/public/assertions/j4y1h3zlSsi-HDLFJcfqDQ
-      - title: Cyberstart America Gold Award 2021 - 2022
+      - title: Cyberstart America Gold Award '21 - '22
         content: Issued by Cyberstart America
         url: https://api.badgr.io/public/assertions/mGy9frpqR8KivcS4k1d0gw
       - title: National Cyber Scholarship Finalist 2021
         content: Issued by the National Cyber Scholarship Foundation
         url: https://api.badgr.io/public/assertions/twoc2ogWQiawYWcMWnRCUg
-      - title: Cyberstart America Gold Award 2020 - 2021
+      - title: Cyberstart America Gold Award '20 - '21
         content: Issued by Cyberstart America
         url: https://api.badgr.io/public/assertions/Ynm53ymtS_OBQM3Z4KwLfg
-      - title: Cyberstart America Gold Award 2022 - 2023
+      - title: Cyberstart America Gold Award '22 - '23
         content: Issued by Cyberstart America
         url: https://api.badgr.io/public/assertions/176AfSMPRwCP8fHVzkojSQ
 

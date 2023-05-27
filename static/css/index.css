@@ -107,22 +107,22 @@ header .navbar {
 #hero h2 {
     font-size: clamp(40px, 8vw, 80px);
     color: var(--title-color);
-    cursor: pointer;
+    /*cursor: pointer;*/
 }
 
 #hero h2:hover {   
-    animation: fade-title-gradient 2s;
+    /*animation: fade-title-gradient 2s;*/
 }
 
 #hero h3 {
     font-size: clamp(40px, 8vw, 60px);
-    cursor: pointer;
+    /*cursor: pointer;*/
     /* color: var(--primary-color) !important; */
     opacity: 0.5;
 }
 
 #hero h3:hover {
-    animation: fade-subtitle-gradient 1s;
+    /*animation: fade-subtitle-gradient 1s;*/
 }
 
 #hero p {
