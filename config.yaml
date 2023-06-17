@@ -73,13 +73,12 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/summer-avatar.jpg"
-    # Include this when I find some activities to do: However, when I'm not coding, you can find me
+    image: "/images/chipmunk-square.jpg" #"/images/summer-avatar.jpg"
     content: |-
-      I'm Jared Baron Panares, a current high school student at William B. Travis High School. I frequently code in my spare time and seek to always improve.  
+      I'm Jared Baron Panares, a current high school student at William B. Travis High School. I frequently code in my spare time and seek to always improve. When I'm not at my desk, you can find me traveling, playing guitar, and enjoying a nice cup of joe.
     skills:
       enable: true
-      title: "Here are some topics I'm interested in:"
+      title: "Here's some stuff I'm interested in:"
       items:
         - "Python"
         - "Java"
@@ -212,8 +211,6 @@ params:
   footer:
     recentPosts: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://www.instagram.com
-      facebook: https://www.facebook.com
+      github: https://github.com/Jarpiano
+      linkedin: https://www.linkedin.com/in/jared-baron-panares-841046242/
+      twitter: https://twitter.com/RealJarpiano
