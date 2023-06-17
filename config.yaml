@@ -95,6 +95,10 @@ params:
     enable: true
     length: 2
     items:
+      - exptitle: "SEC401: Security Essentials - Network, Endpoint, and Cloud"
+        date: "June 2023 - Present"
+        content: I'm currently taking SEC401, offered by SANS, in pursuit of the GSEC certification. This course covers a broad number of topics within the industry including, but not limited to, cloud fundamentals, Windows security, defendible network, etc.
+
       - exptitle: "SANS Foundations: Computers, Technology and Security"
         date: "June 2021 - September 2021"
         featuredLink:
