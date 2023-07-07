@@ -96,8 +96,8 @@ params:
     length: 2
     items:
       - exptitle: "SEC401: Security Essentials - Network, Endpoint, and Cloud"
-        date: "June 2023 - Present"
-        content: I'm currently taking SEC401, offered by SANS, in pursuit of the GSEC certification. This course covers a broad number of topics within the industry including, but not limited to, cloud fundamentals, Windows security, defendible network, etc.
+        date: "June 2023 - July 2023"
+        content: I've completed SEC401, offered by SANS, in pursuit of the GSEC certification. This course covers a broad number of topics within the industry including, but not limited to, cloud fundamentals, Windows security, defendible network, etc.
 
       - exptitle: "SANS Foundations: Computers, Technology and Security"
         date: "June 2021 - September 2021"
@@ -108,7 +108,7 @@ params:
         content: I have taken the SANS Foundations course offered by SANS Institute which helped me learn the core aspects of cybersecurity such as offensive/defensive security, forensics, programming, and more.
 
       - exptitle: "Freecodecamp (FCC)"
-        date: "June 22 - Current day"
+        date: "June 22 - Present"
         featuredLink:
           enable: true
           name: "View profile"
