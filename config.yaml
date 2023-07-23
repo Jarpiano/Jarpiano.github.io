@@ -229,6 +229,20 @@ params:
         featured:
           name: See Page
           link: http://jarpiano.github.io/blueprint/ncsf/
+        badges:
+          - Cybersecurity
+      - title: AgentRoll
+        content: |-
+          Website designed for randomizing agent selection in the game, Valorant.
+        image:  /images/logo-ar.png
+        featured:
+          name: See Website
+          link: https://agentroll.netlify.app/
+        badges:
+          - "Svelte"
+          - "SvelteKit"
+          - "SkeletonUI/TailwindCSS"
+          - "Netlify"
 
   #Contact
   contact:

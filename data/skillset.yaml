@@ -22,3 +22,5 @@ items:
   - desc: Bash
   - desc: Hugo
   - desc: SQL
+  - desc: Svelte/Kit
+  - desc: TailwindCSS
