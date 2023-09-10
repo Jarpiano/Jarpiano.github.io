@@ -122,6 +122,24 @@ params:
     enable: true
     # index: true
     items:
+      - title: "GIAC Security Essentials (GSEC)"
+        school: 
+          name: "Issued by GIAC"
+          url: "https://www.giac.org/"
+        date: "2023"
+        score: ""
+        valid: "2023 - 2027"
+        GPA: "" #None
+        content: |-
+          Shortly after taking the SEC401 course from SANS Institute, I passed my GSEC exam to obtain a certification! 
+          
+          This exam covered a broad range of topics including, but not limited to: 
+           - Network and Cloud Security
+           - Defense-In-Depth
+           - Cryptographic Systems
+           - Vulnerability Management
+           - Windows Architecture
+           - Linux and MacOS Security
       - title: "GIAC Foundational Cybersecurity Technologies (GFACT)"
         school:
           name: "Issued by GIAC"
@@ -131,7 +149,14 @@ params:
         valid: "2021 - 2025"
         GPA: "" #None
         content: |-
-          After taking the SANS Foundations course, I took the GFACT exam and was able to earn my GFACT certification which is issued by GIAC Certifications, a well known organization in cybersecurity.
+          After taking the SANS Foundations course, I took the GFACT exam and was able to earn my GFACT certification which is issued by GIAC Certifications, a well known organization in cybersecurity. 
+
+          This exam covered core cybersecurity fundamentals including topics such as:
+          - Computing Systems
+          - Network Architecture 
+          - Introduction to Servers and Services
+          - Python and C Programming (as applies to IT)
+          - Various Cybersecurity Methodology
         featuredLink:
           enable: true
           name: "See my badge"
