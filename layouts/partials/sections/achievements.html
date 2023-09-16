@@ -11,7 +11,7 @@
                         <div class="card-body bg-transparent">
                             <h5 class="card-title bg-transparent">{{ .title }}</h5>
                             <div class="card-text secondary-font">
-                                {{ .content }}
+                                {{ .content }} 
                             </div>
                         </div>
                     </a>
@@ -24,7 +24,15 @@
                             <div class="card-text secondary-font">
                                 {{ .content }}
                             </div>
+                            
                         </div>
+                        {{if .links}}
+                            <div class="card-footer bg-transparent modal-footer border-0">
+                                {{ range .links}}
+                                    <a type="button" class="btn linkage" href="{{ .href }}" target="_blank">{{ .year }}</a>
+                                {{end}}
+                            </div>
+                            {{end}}
                     </div>
                 </div>
                 {{ end }}

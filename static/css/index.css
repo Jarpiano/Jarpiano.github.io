@@ -582,6 +582,13 @@ header .navbar {
     color: var(--text-secondary-color) !important;
 }
 
+#achievements .linkage {
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    border-color: var(--text-secondary-color);
+    color: var(--text-secondary-color);
+}
+
 /* contact */
 
 #contact h3 {
