@@ -53,9 +53,9 @@ params:
     enable: true
     intro: "Hello, I'm"
     title: "Jared Baron"
-    subtitle: "The Caffeinated Coder"
+    subtitle: "CS Student At THS"
     content: |- 
-      A high school student, curious by nature, with aspirations in computer science. An aficionado of programming, cybersecurity, and web development. Working towards another GIAC certification.
+      A high school student, curious by nature, with aspirations in computer science. An aficionado of programming, cybersecurity, and web development. Currently planning his next project.
     image: /images/me-icon.jpg
     button:
       enable: true
@@ -132,7 +132,7 @@ params:
         GPA: "" #None
         content: |-
           Shortly after taking the SEC401 course from SANS Institute, I passed my GSEC exam to obtain a certification! 
-          
+
           This exam covered a broad range of topics including, but not limited to: 
            - Network and Cloud Security
            - Defense-In-Depth
