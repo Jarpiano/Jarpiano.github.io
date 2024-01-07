@@ -97,7 +97,10 @@ params:
     items:
       - exptitle: "SEC401: Security Essentials - Network, Endpoint, and Cloud"
         date: "June 2023 - July 2023"
-        content: I've completed SEC401, offered by SANS, in pursuit of the GSEC certification. This course covers a broad number of topics within the industry including, but not limited to, cloud fundamentals, Windows security, defendible network, etc.
+        content: |-
+          I've completed SEC401, offered by SANS, in pursuit of the GSEC certification. This course covers a broad number of topics within the industry including, but not limited to, cloud fundamentals, Windows security, defendible network, etc.
+
+          *Provided by National Cyber Scholarship Foundation*
 
       - exptitle: "SANS Foundations: Computers, Technology and Security"
         date: "June 2021 - September 2021"
@@ -105,7 +108,10 @@ params:
           enable: true
           name: "View badge"
           url: "https://api.badgr.io/public/assertions/2bO1c9a6Rm2cQdbMHTdIxw"
-        content: I have taken the SANS Foundations course offered by SANS Institute which helped me learn the core aspects of cybersecurity such as offensive/defensive security, forensics, programming, and more.
+        content: |-
+          I have taken the SANS Foundations course offered by SANS Institute which helped me learn the core aspects of cybersecurity such as offensive/defensive security, forensics, programming, and more.
+
+          *Provided by National Cyber Scholarship Foundation*
 
       - exptitle: "Freecodecamp (FCC)"
         date: "June 22 - Present"
@@ -113,7 +119,7 @@ params:
           enable: true
           name: "View profile"
           url: "https://www.freecodecamp.org/Kyobito"
-        content: |
+        content: |-
           I have earned the certificate for **Scientific Computing with Python**. I've done about 300 hours of coursework (according to FCC) and have completed 5 projects involving Python along the way. At the moment, I'm working towards their Front-end development course.
 
 
@@ -140,6 +146,8 @@ params:
            - Vulnerability Management
            - Windows Architecture
            - Linux and MacOS Security
+
+           *Provided by National Cyber Scholarship Foundation*
         featuredLink:
           enable: true
           name: "See my badge"
@@ -161,6 +169,8 @@ params:
           - Introduction to Servers and Services
           - Python and C Programming (as applies to IT)
           - Various Cybersecurity Methodology
+
+          *Provided by National Cyber Scholarship Foundation*
         featuredLink:
           enable: true
           name: "See my badge"
@@ -173,7 +183,7 @@ params:
         score: ""
         GPA: "" 
         content: |-
-          A senior at Travis high school. I've taken Pre-AP Computer Science, AP Computer Science Principles, and AP Computer Science A.
+          A senior at Travis high school. I've taken Pre-AP Computer Science I, AP Computer Science Principles, AP Computer Science A, and Computer Science III.
           
           Clubs:
             - National Beta Club
@@ -181,6 +191,7 @@ params:
             - Habitat for Humanity Travis Chapter ('23 Officer)
             - Academic Decathlon
             - National Honor Society
+            - Science Olympiad
 
   # Achievements
   achievements:

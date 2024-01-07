@@ -328,6 +328,7 @@ header .navbar {
 
 #experience * {
     background-color: transparent !important;
+    
 }
 
 #experience .tab-pane > * {
@@ -390,7 +391,7 @@ header .navbar {
     opacity: 0.9;
     display: inline-block;
     text-decoration: none;
-    color: var(--primary-color) !important;
+    color: var(--text-color) !important;
 }
 
 #experience a::after {
