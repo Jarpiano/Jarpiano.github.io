@@ -287,6 +287,15 @@ params:
           - "SvelteKit"
           - "SkeletonUI/TailwindCSS"
           - "Netlify"
+      - title: CSNHS Website
+        content: |-
+          Website for the Computer Science National Honor Society at Travis High School.
+        image: /images/csnhs-logo.png
+        featured:
+          name: See Website
+          link: https://thscsnhs.pages.dev/
+        badges:
+          - "Astro"
 
   #Contact
   contact:
