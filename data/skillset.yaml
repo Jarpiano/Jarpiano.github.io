@@ -19,8 +19,14 @@ items:
     desc: Linux
   - icon: fab fa-windows
     desc: Windows 
-  - desc: Bash
-  - desc: Hugo
-  - desc: SQL
-  - desc: Svelte/Kit
-  - desc: TailwindCSS
+  - icon: fas fa-bug
+    desc: Bash
+  - icon: fas fa-folder-open
+    desc: Hugo
+  - icon: fas fa-database
+    desc: SQL
+  - icon: fas fa-code
+    desc: Svelte
+  - icon: fas fa-wind
+    desc: Tailwind
+    
