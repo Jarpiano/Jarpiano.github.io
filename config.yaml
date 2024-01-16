@@ -296,6 +296,14 @@ params:
           link: https://thscsnhs.pages.dev/
         badges:
           - "Astro"
+      - title: Blog
+        content: |-
+          Articles recollecting my thoughts on tech and software.
+        image: /images/blog-image.jpg
+        featured:
+          name: See Blog
+          link: /blog
+        
 
   #Contact
   contact:
