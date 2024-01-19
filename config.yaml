@@ -213,6 +213,8 @@ params:
       - title: Cyberstart America Gold Award
         content: Gained at least 100,000 points in CyberStart through the CyberStart America program.
         links:
+          - year: "2024"
+            href: https://api.badgr.io/public/assertions/MNxfXVzTR5GLQE1lL1bZNQ
           - year: "2023"
             href: https://api.badgr.io/public/assertions/176AfSMPRwCP8fHVzkojSQ
           - year: "2022"

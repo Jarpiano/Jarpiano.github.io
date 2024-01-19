@@ -1,7 +1,7 @@
 ---
 title: "2024 Tech Thoughts"
 date: 2024-01-15T16:45:47-06:00
-draft: true
+draft: false
 author: Jared Baron Panares
 tags: 
   - Article
