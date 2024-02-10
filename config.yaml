@@ -51,11 +51,11 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hello, I'm"
-    title: "Jared Baron"
+    intro: "Hey, I'm"
+    title: "Jared Baron Panares"
     subtitle: "CS Student At THS"
     content: |- 
-      A high school student, curious by nature, with aspirations in computer science. An aficionado of programming, cybersecurity, and web development. Currently planning his next project.
+      A high school senior with aspirations in the broad field of computer science. <br>An aficionado of programming, cybersecurity, and web development. <br>Looking for opportunities in network security and software.
     image: /images/me-icon.jpg
     button:
       enable: true
@@ -95,6 +95,13 @@ params:
     enable: true
     length: 2
     items:
+      - exptitle: "SEC504: Hacker Tools, Techniques, and Incident Handling"
+        date: "February 2024 - Present"
+        content: |-
+          I'm currently working through the SEC504 course to prepare for the GCIH certification exam. This course focuses on incident response through understanding attacker techniques, highlighting the reaction process, and utilizing next-generation systems.
+
+          *Provided by National Cyber Scholarship Foundation*
+
       - exptitle: "SEC401: Security Essentials - Network, Endpoint, and Cloud"
         date: "June 2023 - July 2023"
         content: |-
