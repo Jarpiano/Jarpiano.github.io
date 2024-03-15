@@ -79,7 +79,7 @@ params:
     title: "About Me"
     image: "/images/summer-avatar.jpg"
     content: |-
-      I'm Jared, a high school student stationed at William B. Travis High School. I'm well-versed in tech topics but always in pursuit of improvement. When I'm not typing away, you can find me reading a book, listening to music, or under the sun.
+      I'm Jared, a high school student stationed at William B. Travis High School. I'm well-versed in tech topics but always in pursuit of improvement. When I'm not typing away, you can find me reading a book, listening to music, or strumming a guitar.
     skills:
       enable: true
       title: "Here's some stuff I'm interested in:"
@@ -207,9 +207,13 @@ params:
       - title: GIAC Advisory Board
         content: Invitation only, email-based forum where IT Security professionals can exchange ideas and advice. Earned through an excellent score on a GIAC certification.
         url: https://www.credly.com/badges/33250358-1ea8-4650-8a95-93f24de04162/public_url
-      - title: National Cyber Scholarship Scholar with Honors 2023
-        content: Solved hands-on challenges in CyberStart and were ranked in the top 1% of eligible players in the United States of America
-        url: "https://api.badgr.io/public/assertions/-t0yxooXRribOcXAIC_fGA"
+      - title: National Cyber Scholarship Scholar with Honors
+        content: Solved hands-on challenges in CyberStart and were ranked in the top 1% of eligible players in the United States of America.
+        links:
+          - year: "2024"
+            href: https://api.badgr.io/public/assertions/H1-yxF_HRGGuhxqOmbq1YA
+          - year: "2023"
+            href: https://api.badgr.io/public/assertions/-t0yxooXRribOcXAIC_fGA
       - title: National Cyber Scholarship Finalist
         content: Met Finalist requirements for respective years and gained access to the Cyber Foundations Academy.
         links:
