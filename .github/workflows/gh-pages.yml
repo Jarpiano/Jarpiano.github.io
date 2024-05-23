@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     env:
-      HUGO_VERSION: 0.126.0
+      HUGO_VERSION: 0.101.0
   deploy:
     runs-on: ubuntu-20.04
     steps:
