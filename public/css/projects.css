@@ -51,12 +51,15 @@
 
 #projects .card-img-top {
     transition: transform 0.3s;
+    height: 300px;
+    object-fit: cover;
 }
 
 #projects .float-end .btn {
     transition: none;
     border-radius: .5rem !important;
     border-color: var(--primary-color) !important;
+    margin-left: 10px;
 }
 
 #projects .float-end .btn:focus {

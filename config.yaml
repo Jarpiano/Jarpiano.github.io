@@ -186,9 +186,9 @@ params:
         school:
           name: "William B. Travis High School"
           url: "https://www.fortbendisd.com/ths"
-        date: "2020 - Current day"
+        date: "2020 - 2024"
         score: ""
-        GPA: "" 
+        GPA: "4.0 of 4.0" 
         content: |-
           A senior at Travis high school. I've taken Pre-AP Computer Science I, AP Computer Science Principles, AP Computer Science A, and Computer Science III.
           
@@ -316,6 +316,13 @@ params:
         featured:
           name: See Blog
           link: /blog
+      - title: Envirocate
+        content: |-
+          Climate change and other environmental advocacy website.
+        image: /images/envirocate-logo.png
+        featured:
+          name: See Website
+          link: https://envirocate.netlify.app/
         
 
   #Contact
