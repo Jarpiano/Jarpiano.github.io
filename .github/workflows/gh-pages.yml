@@ -7,6 +7,9 @@ on:
   pull_request:
 
 jobs:
+  build:
+    env:
+      HUGO_VERSION: 0.126.0
   deploy:
     runs-on: ubuntu-20.04
     steps:
