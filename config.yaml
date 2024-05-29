@@ -96,7 +96,7 @@ params:
     length: 2
     items:
       - exptitle: "SEC504: Hacker Tools, Techniques, and Incident Handling"
-        date: "February 2024 - Present"
+        date: "February 2024 - May 2024"
         content: |-
           I'm currently working through the SEC504 course to prepare for the GCIH certification exam. This course focuses on incident response through understanding attacker techniques, highlighting the reaction process, and utilizing next-generation systems.
 
@@ -135,6 +135,27 @@ params:
     enable: true
     # index: true
     items:
+      - title: "GIAC Certified Incident Handler (GCIH)"
+        school: 
+          name: "Issued by GIAC"
+          url: "https://www.giac.org/"
+        date: "2024"
+        score: ""
+        valid: "2024 - 2028"
+        GPA: "" #None
+        content: |-
+          The GCIH exam highlights offensive operations security by focusing on utilizing and mitigating attacker tools/techniques.
+
+          This exam includes, but isn't limited to:
+            - Memory and Malware Investigation
+            - Reconnaissance and Open-Source Intelligence
+            - Incident Response
+            - Endpoint Attack and Pivoting
+            - Detecting Exploitation Tools and Evasive Techniques
+        featuredLink:
+          enable: true
+          name: "See my badge"
+          url: "https://www.credly.com/badges/bf867170-73ab-4b54-9d1f-31f46585bdde/public_url"
       - title: "GIAC Security Essentials (GSEC)"
         school: 
           name: "Issued by GIAC"
