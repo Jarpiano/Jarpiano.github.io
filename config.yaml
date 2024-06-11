@@ -1,7 +1,7 @@
 # Change baseURL to web url
 baseURL: "https://jarpiano.github.io/"
 languageCode: "en-us"
-title: "Jared Baron Panares"
+title: "Jared Baron Panares | Jarpiano"
 theme: hugo-profile
 
 Paginate: 3
