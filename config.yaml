@@ -1,7 +1,7 @@
 # Change baseURL to web url
 baseURL: "https://jarpiano.github.io/"
 languageCode: "en-us"
-title: "Jared Baron Panares | Jarpiano"
+title: "Jared Baron Panares"
 theme: hugo-profile
 
 Paginate: 3
@@ -53,9 +53,9 @@ params:
     enable: true
     intro: "Hey, I'm"
     title: "Jared Baron Panares"
-    subtitle: "CS Student At THS"
+    subtitle: "CS @ UT Austin"
     content: |- 
-      A high school senior with aspirations in the broad field of computer science. <br>An aficionado of programming, cybersecurity, and web development. <br>Looking for opportunities in network security and software.
+      An undergraduate student with aspirations in the broad field of computer science. <br>An aficionado of programming, cybersecurity, and web development. <br>Looking for opportunities in network security and software.
     image: /images/me-icon.jpg
     button:
       enable: true
@@ -79,16 +79,16 @@ params:
     title: "About Me"
     image: "/images/summer-avatar.jpg"
     content: |-
-      I'm Jared, a high school student stationed at William B. Travis High School. I'm well-versed in tech topics but always in pursuit of improvement. When I'm not typing away, you can find me reading a book, listening to music, or strumming a guitar.
+      I'm Jared, an undergraduate student attending the University of Texas at Austin. I dabble in tech and specialize in cybersecurity. Away from the keyboard, you can find me reading mycology books, listening to beabadoobee, or strumming a guitar.
     skills:
       enable: true
       title: "Here's some stuff I'm interested in:"
       items:
-        - "Python"
-        - "Java"
-        - "Machine Learning"
-        - "Cybersecurity"
-        - "Web development"
+        - "Web Development"
+        - "Information Security"
+        - "Mushroom Science"
+        - "Indie Rock and R&B"
+        - "Acoustic Guitar"
 
   # Experience
   experience:
@@ -98,7 +98,7 @@ params:
       - exptitle: "SEC504: Hacker Tools, Techniques, and Incident Handling"
         date: "February 2024 - May 2024"
         content: |-
-          I'm currently working through the SEC504 course to prepare for the GCIH certification exam. This course focuses on incident response through understanding attacker techniques, highlighting the reaction process, and utilizing next-generation systems.
+          I've completed the SEC504 course to prepare for the GCIH certification exam. This course focuses on incident response through understanding attacker techniques, highlighting the reaction process, and utilizing next-generation systems.
 
           *Provided by National Cyber Scholarship Foundation*
 
@@ -211,7 +211,7 @@ params:
         score: ""
         GPA: "4.0 of 4.0" 
         content: |-
-          A senior at Travis high school. I've taken Pre-AP Computer Science I, AP Computer Science Principles, AP Computer Science A, and Computer Science III.
+          Graduated from Travis high school. I've taken Pre-AP Computer Science I, AP Computer Science Principles, AP Computer Science A, and Computer Science III.
           
           Clubs:
             - National Beta Club
