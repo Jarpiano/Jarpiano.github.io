@@ -52,8 +52,8 @@ params:
   hero:
     enable: true
     intro: "Hey, I'm"
-    title: "Jared Baron Panares"
-    subtitle: "CS @ UT Austin"
+    title: "Jared,"
+    subtitle: "Student at UT Austin"
     content: |- 
       An undergraduate student with aspirations in the broad field of computer science. <br>An aficionado of programming, cybersecurity, and web development. <br>Looking for opportunities in network security and software.
     image: /images/me-icon.jpg
