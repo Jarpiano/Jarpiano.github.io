@@ -34,7 +34,7 @@ params:
   #   brandName: "Profile" # Brand name for the brand | default is the title variable
 
   menus:
-    disableContact: true
+  #  disableContact: true
   #  disableAbout: true
   #  disableExperience: true
   #  disableEducation: true
@@ -51,9 +51,9 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hey, I'm"
-    title: "Jared,"
-    subtitle: "Student at UT Austin"
+    intro: "Hey,"
+    title: "I'm Jared"
+    subtitle: "CS Major @ UT Austin"
     content: |- 
       An undergraduate student with aspirations in the broad field of computer science. <br>An aficionado of programming, cybersecurity, and web development. <br>Looking for opportunities in network security and software.
     image: /images/me-icon.jpg
@@ -203,6 +203,25 @@ params:
           enable: true
           name: "See my badge"
           url: "https://www.credly.com/badges/0a307a0c-c351-49ab-ad47-326b83229095/public_url"
+      - title: "Bachelors of Science"
+        school:
+          name: "University of Texas at Austin"
+          url: "https://www.utexas.edu/"
+        date: "2024 - 2028"
+        content: |- 
+          Seeking a Bachelors of Science in Computer Science and planning a concentration in cybersecurity.
+
+          Relevant Coursework:
+           - C S 429 Computer Organization and Architecture ^
+           - C S 309 Autonomous Intelligent Robotics ^
+           - C S 314 Data Structures
+           - C S 311 Discrete Math for Computer Science
+
+          Clubs:
+           - Information & Systems Security Society (Fall '24 Cyber Scholar)
+           - Texas Association for Computing Machinery
+
+          <em style = "font-size: 90%">^ Current Classes</em>
       - title: "High School"
         school:
           name: "William B. Travis High School"
@@ -348,9 +367,9 @@ params:
 
   #Contact
   contact:
-    enable: false
-    content: You can reach me via email! My inbox is always open for any opportunities regarding computer science and anything similar.
-    email: example@gmail.com
+    enable: true
+    content: You can reach me via email! My inbox is always open for academic and professional inquiries.
+    email: barcousticjp@gmail.com
     btnName: Contact me
 
   skills:
