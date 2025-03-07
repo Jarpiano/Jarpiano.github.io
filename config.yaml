@@ -79,7 +79,9 @@ params:
     title: "About Me"
     image: "/images/summer-avatar.jpg"
     content: |-
-      I'm Jared, an undergraduate student attending the University of Texas at Austin. I dabble in tech and specialize in cybersecurity. Away from the keyboard, you can find me reading mycology books, listening to beabadoobee, or strumming a guitar.
+      I'm Jared, an undergraduate student attending the University of Texas at Austin. I dabble in 
+      tech and specialize in cybersecurity. Away from the keyboard, you can find me reading mycology books, 
+      listening to beabadoobee, or strumming a guitar.
     skills:
       enable: true
       title: "Here's some stuff I'm interested in:"
@@ -98,14 +100,18 @@ params:
       - exptitle: "SEC504: Hacker Tools, Techniques, and Incident Handling"
         date: "February 2024 - May 2024"
         content: |-
-          I've completed the SEC504 course to prepare for the GCIH certification exam. This course focuses on incident response through understanding attacker techniques, highlighting the reaction process, and utilizing next-generation systems.
+          I've completed the SEC504 course to prepare for the GCIH certification exam. 
+          This course focuses on incident response through understanding attacker techniques, 
+          highlighting the reaction process, and utilizing next-generation systems.
 
           *Provided by National Cyber Scholarship Foundation*
 
       - exptitle: "SEC401: Security Essentials - Network, Endpoint, and Cloud"
         date: "June 2023 - July 2023"
         content: |-
-          I've completed SEC401, offered by SANS, in pursuit of the GSEC certification. This course covers a broad number of topics within the industry including, but not limited to, cloud fundamentals, Windows security, defendible network, etc.
+          I've completed SEC401, offered by SANS, in pursuit of the GSEC certification. 
+          This course covers a broad number of topics within the industry including, but not limited 
+          to, cloud fundamentals, Windows security, defendible network, etc.
 
           *Provided by National Cyber Scholarship Foundation*
 
@@ -116,7 +122,9 @@ params:
           name: "View badge"
           url: "https://api.badgr.io/public/assertions/2bO1c9a6Rm2cQdbMHTdIxw"
         content: |-
-          I have taken the SANS Foundations course offered by SANS Institute which helped me learn the core aspects of cybersecurity such as offensive/defensive security, forensics, programming, and more.
+          I have taken the SANS Foundations course offered by SANS Institute which helped me learn 
+          the core aspects of cybersecurity such as offensive/defensive security, forensics, programming, 
+          and more.
 
           *Provided by National Cyber Scholarship Foundation*
 
@@ -127,7 +135,9 @@ params:
           name: "View profile"
           url: "https://www.freecodecamp.org/Kyobito"
         content: |-
-          I have earned the certificate for **Scientific Computing with Python**. I've done about 300 hours of coursework (according to FCC) and have completed 5 projects involving Python along the way. At the moment, I'm working towards their Front-end development course.
+          I have earned the certificate for **Scientific Computing with Python**. I've done about 300
+           hours of coursework (according to FCC) and have completed 5 projects involving Python along the way. 
+           At the moment, I'm working towards their Front-end development course.
 
 
   # Education
@@ -189,7 +199,8 @@ params:
         valid: "2021 - 2025"
         GPA: "" #None
         content: |-
-          After taking the SANS Foundations course, I took the GFACT exam and was able to earn my GFACT certification which is issued by GIAC Certifications, a well known organization in cybersecurity. 
+          After taking the SANS Foundations course, I took the GFACT exam and was able to earn my 
+          GFACT certification which is issued by GIAC Certifications, a well known organization in cybersecurity. 
 
           This exam covered core cybersecurity fundamentals including topics such as:
           - Computing Systems
@@ -230,7 +241,8 @@ params:
         score: ""
         GPA: "4.0 of 4.0" 
         content: |-
-          Graduated from Travis high school. I've taken Pre-AP Computer Science I, AP Computer Science Principles, AP Computer Science A, and Computer Science III.
+          Graduated from Travis high school. I've taken Pre-AP Computer Science I, AP Computer Science 
+          Principles, AP Computer Science A, and Computer Science III.
           
           Clubs:
             - National Beta Club
@@ -278,17 +290,18 @@ params:
   projects:
     enable: true
     items:
-      - title: JP Website
+      - title: Website Collection
         content: |-
-          My personal portfolio site - made using the Hugo framework with gurusabarish's Hugo Profile theme.
+          My personal front-end portfolio composed of projects spanning years.
         image: /images/project-logo.png
         featured:
-          name: See Repository
-          link: https://github.com/Jarpiano/Jarpiano.github.io
+          name: See websites
+          link: '/blog/websites'
         badges:
           - "Hugo"
-          - "Bootstrap"
           - "HTML"
+          - "Svelte"
+          - "Front-End"
       - title: Freecodecamp Library
         content: |-
          An assortment of my activities on Freecodecamp along with certifications
@@ -298,17 +311,6 @@ params:
           link: https://www.freecodecamp.org/Kyobito
         badges:
           - "Python"
-      - title: Habitat For Humanity THS
-        content: |-
-         A website for the Habitat For Humanity Travis Chapter - made during my time as officer.
-        image: /images/habitat-logo.png
-        featured:
-          name: See Website
-          link: https://habitat-for-humanity-ths.github.io/
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "HTML"
       - title: Community Discord Bot
         content: |-
           A bot built and personalized for my Discord community. It utilizes discord.py and is able to access the Hypixel and Imgur APIs.
@@ -328,27 +330,6 @@ params:
           link: http://jarpiano.github.io/blueprint/ncsf/
         badges:
           - Cybersecurity
-      - title: AgentRoll
-        content: |-
-          Website designed for randomizing agent selection in the game, Valorant.
-        image:  /images/logo-ar.png
-        featured:
-          name: See Website
-          link: https://agentroll.netlify.app/
-        badges:
-          - "Svelte"
-          - "SvelteKit"
-          - "SkeletonUI/TailwindCSS"
-          - "Netlify"
-      - title: CSNHS Website
-        content: |-
-          Website for the Computer Science National Honor Society at Travis High School.
-        image: /images/csnhs-logo.png
-        featured:
-          name: See Website
-          link: https://thscsnhs.pages.dev/
-        badges:
-          - "Astro"
       - title: Blog
         content: |-
           Articles recollecting my thoughts on tech and software.
@@ -356,13 +337,6 @@ params:
         featured:
           name: See Blog
           link: /blog
-      - title: Envirocate
-        content: |-
-          Climate change and other environmental advocacy website.
-        image: /images/envirocate-logo.png
-        featured:
-          name: See Website
-          link: https://envirocate.netlify.app/
         
 
   #Contact
