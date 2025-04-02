@@ -1,7 +1,38 @@
 {{ if .Site.Params.experience.enable | default false }}
+<script>
+    function selectExp(window) {
+        if (window == "certification") {
+            for (var i = 0; i < document.getElementsByClassName("certification").length; i++) {
+                document.getElementsByClassName("certification")[i].style.display = "";
+            }
+            for (var i = 0; i < document.getElementsByClassName("degree").length; i++) {
+                document.getElementsByClassName("degree")[i].style.display = "none";
+            }
+        } else if (window == "degree") {
+            for (var i = 0; i < document.getElementsByClassName("certification").length; i++) {
+                document.getElementsByClassName("certification")[i].style.display = "none";
+            }
+            for (var i = 0; i < document.getElementsByClassName("degree").length; i++) {
+                document.getElementsByClassName("degree")[i].style.display = "";
+            }
+        }
+        console.log(window);
+    }
+</script>
 <section id="experience" class="py-5">
     <div class="container">
         <h3 class="text-center">Experience</h3>
+        <div class="px-3 px-md-5 px-lg-5">
+            <div class="row justify-content-center">
+                <div class="h-100 d-flex align-items-center justify-content-center my-3">
+                    <div class="btn-group btn-group-justified">
+                        <button type="button" class="btn btn-default btn-block" onclick="selectExp('certification')">Certifications</button>
+                        <button type="button" class="btn btn-default btn-block" onclick="selectExp('degree')">Institutions</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="row justify-content-center">
             <div class="col-sm-12 col-md-9 col-lg-9 py-5">
                 <div class="experience-container px-4 px-lg-5  pt-2">

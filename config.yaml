@@ -112,6 +112,7 @@ params:
   # Experience
   experience:
     enable: true
+    id: "course"
     length: 2
     items:
       - exptitle: "SEC504: Hacker Tools, Techniques, and Incident Handling"

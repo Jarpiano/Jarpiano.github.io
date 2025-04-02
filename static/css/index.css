@@ -326,6 +326,18 @@ header .navbar {
     color: var(--text-secondary-color) !important;
 }
 
+#experience .btn {
+    color: var(--text-color) !important;
+    background-color: var(--secondary-color) !important;
+    border: 0px;
+}
+
+#education .btn:hover {
+    background-color: var(--primary-color) !important;
+    color: var(--background-color) !important;
+    transition: .7s;
+}
+
 #experience * {
     background-color: transparent !important;
     
