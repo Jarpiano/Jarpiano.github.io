@@ -20,9 +20,9 @@ params:
     defaultTheme: "light"
 
   variants:
-    standard: "fas fa-user-tie"
-    summer: "fas fa-umbrella-beach"
-    winter: "fas fa-snowflake"
+    #standard: "fas fa-user-tie"
+    #summer: "fas fa-umbrella-beach"
+    #winter: "fas fa-snowflake"
     #autumn: "fab fa-canadian-maple-leaf"
     #spring: "fas fa-leaf"
 
@@ -43,10 +43,27 @@ params:
   #  disableSkills: true
     
   
-  color:
-    primaryColor: ""
+  #color:
+   # primaryColor: ""
     # titleColor completely overrides both dark/light 
     # titleColor: "#ff8400"
+
+  # color preference
+  color:
+    titleColor: "#003C7E"
+  #  textColor: "#402218"
+  #  secondaryTextColor: "#865439"
+  #  backgroundColor: "#FEFAF6"
+  #  secondaryBackgroundColor: "#C68B59"
+    primaryColor: "#003C7E"
+  #  secondaryColor: 
+  #  darkmode:
+  #    textColor:
+  #    secondaryTextColor:
+  #    backgroundColor:
+  #    secondaryBackgroundColor:
+  #    primaryColor:
+  #    secondaryColor:
 
   # Hero
   hero:
@@ -56,7 +73,7 @@ params:
     subtitle: "CS Major @ UT Austin"
     content: |- 
       An undergraduate student with aspirations in the broad field of computer science. <br>An aficionado of programming, cybersecurity, and web development. <br>Looking for opportunities in network security and software.
-    image: /images/me-icon.jpg
+    image: /images/avatarv3.png
     button:
       enable: true
       name: "Repository"
@@ -77,11 +94,11 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/summer-avatar.jpg"
+    image: "/images/summer-avatar-brown.png"
     content: |-
       I'm Jared, an undergraduate student attending the University of Texas at Austin. I dabble in 
       tech and specialize in cybersecurity. Away from the keyboard, you can find me reading mycology books, 
-      listening to beabadoobee, or strumming a guitar.
+      listening to indie, or strumming a guitar.
     skills:
       enable: true
       title: "Here's some stuff I'm interested in:"
