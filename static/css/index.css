@@ -472,6 +472,18 @@ header .navbar {
     font-weight: bold;
 }
 
+#education .btn {
+    color: var(--text-color) !important;
+    background-color: var(--secondary-color) !important;
+    border: 0px;
+}
+
+#education .btn:hover {
+    background-color: var(--primary-color) !important;
+    color: var(--background-color) !important;
+    transition: .7s;
+}
+
 #education .card * {
     background-color: var(--secondary-color) !important;
 }

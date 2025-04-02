@@ -163,6 +163,7 @@ params:
     # index: true
     items:
       - title: "GIAC Certified Incident Handler (GCIH)"
+        id: "certification"
         school: 
           name: "Issued by GIAC"
           url: "https://www.giac.org/"
@@ -184,6 +185,7 @@ params:
           name: "See my badge"
           url: "https://www.credly.com/badges/bf867170-73ab-4b54-9d1f-31f46585bdde/public_url"
       - title: "GIAC Security Essentials (GSEC)"
+        id: "certification"
         school: 
           name: "Issued by GIAC"
           url: "https://www.giac.org/"
@@ -208,6 +210,7 @@ params:
           name: "See my badge"
           url: "https://www.credly.com/badges/4c00b960-4ad9-4f6c-aaa8-825685c72db3/public_url"
       - title: "GIAC Foundational Cybersecurity Technologies (GFACT)"
+        id: "certification"
         school:
           name: "Issued by GIAC"
           url: "https://www.giac.org/"
@@ -232,6 +235,7 @@ params:
           name: "See my badge"
           url: "https://www.credly.com/badges/0a307a0c-c351-49ab-ad47-326b83229095/public_url"
       - title: "Bachelors of Science"
+        id: "degree"
         school:
           name: "University of Texas at Austin"
           url: "https://www.utexas.edu/"
@@ -251,6 +255,7 @@ params:
 
           <em style = "font-size: 90%">^ Current Classes</em>
       - title: "High School"
+        id: "degree"
         school:
           name: "William B. Travis High School"
           url: "https://www.fortbendisd.com/ths"
