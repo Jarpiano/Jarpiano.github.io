@@ -326,7 +326,19 @@ header .navbar {
     color: var(--text-secondary-color) !important;
 }
 
-#experience * {
+#experience .btn {
+    color: var(--text-color) ;
+    background-color: var(--secondary-color) ;
+    border: 0px;
+}
+
+#experience .btn:hover {
+    background-color: var(--primary-color) ;
+    color: var(--background-color) ;
+    transition: .7s;
+}
+
+#experience *:not(.btn) {
     background-color: transparent !important;
     
 }
@@ -473,14 +485,14 @@ header .navbar {
 }
 
 #education .btn {
-    color: var(--text-color) !important;
-    background-color: var(--secondary-color) !important;
+    color: var(--text-color) ;
+    background-color: var(--secondary-color);
     border: 0px;
 }
 
 #education .btn:hover {
-    background-color: var(--primary-color) !important;
-    color: var(--background-color) !important;
+    background-color: var(--primary-color) ;
+    color: var(--background-color) ;
     transition: .7s;
 }
 
