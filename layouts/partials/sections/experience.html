@@ -1,22 +1,52 @@
 {{ if .Site.Params.experience.enable | default false }}
 <script>
-    function selectExp(window) {
-        if (window == "certification") {
-            for (var i = 0; i < document.getElementsByClassName("certification").length; i++) {
-                document.getElementsByClassName("certification")[i].style.display = "";
+    function selectExp(choice) {
+        if (choice == "work") {
+            reassign(wb, true); reassign(rb, false); reassign(cb, false);
+            for (var i = 0; i < document.getElementsByClassName("work").length; i++) {
+                document.getElementsByClassName("work")[i].style.display = "";
             }
-            for (var i = 0; i < document.getElementsByClassName("degree").length; i++) {
-                document.getElementsByClassName("degree")[i].style.display = "none";
+            for (var i = 0; i < document.getElementsByClassName("course").length; i++) {
+                document.getElementsByClassName("course")[i].style.display = "none";
             }
-        } else if (window == "degree") {
-            for (var i = 0; i < document.getElementsByClassName("certification").length; i++) {
-                document.getElementsByClassName("certification")[i].style.display = "none";
+            for (var i = 0; i < document.getElementsByClassName("research").length; i++) {
+                document.getElementsByClassName("research")[i].style.display = "none";
             }
-            for (var i = 0; i < document.getElementsByClassName("degree").length; i++) {
-                document.getElementsByClassName("degree")[i].style.display = "";
+        } else if (choice == "course") {
+            reassign(wb, false); reassign(cb, true); reassign(rb, false);
+            document.getElementsByClassName("course")[0].classList.add("pt-4");
+            for (var i = 0; i < document.getElementsByClassName("work").length; i++) {
+                document.getElementsByClassName("work")[i].style.display = "none";
+            }
+            for (var i = 0; i < document.getElementsByClassName("course").length; i++) {
+                document.getElementsByClassName("course")[i].style.display = "";
+            }
+            for (var i = 0; i < document.getElementsByClassName("research").length; i++) {
+                document.getElementsByClassName("research")[i].style.display = "none";
+            }
+        } else if (choice == "research") {
+            reassign(wb, false); reassign(cb, false); reassign(rb, true);
+            document.getElementsByClassName("research")[0].classList.add("pt-4");
+            for (var i = 0; i < document.getElementsByClassName("work").length; i++) {
+                document.getElementsByClassName("work")[i].style.display = "none";
+            }
+            for (var i = 0; i < document.getElementsByClassName("course").length; i++) {
+                document.getElementsByClassName("course")[i].style.display = "none";
+            }
+            for (var i = 0; i < document.getElementsByClassName("research").length; i++) {
+                document.getElementsByClassName("research")[i].style.display = "";
             }
         }
-        console.log(window);
+    }
+    function reassign(button, turnedOn) {
+        if (turnedOn) {
+            button.style.backgroundColor = prim;
+            button.style.color = bg;
+            console.log(button);
+        } else {
+            button.style.removeProperty("background-color");
+            button.style.removeProperty("color");
+        }
     }
 </script>
 <section id="experience" class="py-5">
@@ -26,8 +56,9 @@
             <div class="row justify-content-center">
                 <div class="h-100 d-flex align-items-center justify-content-center my-3">
                     <div class="btn-group btn-group-justified">
-                        <button type="button" class="btn btn-default btn-block" onclick="selectExp('certification')">Certifications</button>
-                        <button type="button" class="btn btn-default btn-block" onclick="selectExp('degree')">Institutions</button>
+                        <button type="button" class="btn btn-default btn-block shadow-none" onclick="selectExp('work')" id="work-button">Work</button>
+                        <button type="button" class="btn btn-default btn-block shadow-none" onclick="selectExp('research')" id="research-button">Research</button>
+                        <button type="button" class="btn btn-default btn-block shadow-none" onclick="selectExp('course')" id="course-button">Courses</button>
                     </div>
                 </div>
             </div>
@@ -40,14 +71,19 @@
                         {{ $len := .Site.Params.experience.length}}
                         {{ range $index, $element := .Site.Params.experience.items }}
                         <div 
-                            class="tab-pane fade show active bg-transparent" 
+                            class="tab-pane fade show active bg-transparent {{ .id }}" 
                             role="tabpanel"
                             id='pills-{{ replace .exptitle " " "-" }}-{{ replace .date " " "-" }}'
                             aria-labelledby='pills-{{ replace .exptitle " " "-" }}-{{ replace .date " " "-" }}-tab'
-                            style="{{if eq $index 0}} padding-top: 20px; {{end}} padding-bottom: 30px; "
+                            style="{{if eq $index 0}} padding-top: 20px; {{end}} padding-bottom: 30px; {{ if or (eq .id "course") (eq .id "research")}} display: none; {{ end }}"
                         >
                             <div>
                                 <span class="h4">{{ .exptitle }}</span>
+                                {{ if .employer }}
+                                <div class="pb-1">
+                                    {{ .employer }}
+                                </div>
+                                {{ end }}
                                 <div class="pb-1">
                                     <small>{{ .date }}</small>
                                 </div>

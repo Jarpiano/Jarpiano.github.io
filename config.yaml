@@ -112,28 +112,45 @@ params:
   # Experience
   experience:
     enable: true
-    id: "course"
     length: 2
     items:
+      - exptitle: "Java Programming Tutor"
+        id: "work"
+        employer: "Katy Stem Academy LLC"
+        date: "January 2025 - April 2025"
+        content: |-
+          - Created 200+ slides to breaking down complex AP Computer Science A/Beginner's Java Programming content into simplified topics.
+          - Provided group tutoring sessions to secondary school students ranging from 6th - 11th grade with a focus on an introduction to Java Programming.
+          - Developed a curriculum with lecture style content and practical lab exercises.
+      - exptitle: "Undergraduate Researcher"
+        id: "research"
+        employer: "University of Texas at Austin - Freshman Research Initiative (FRI)"
+        date: "January 2025 - May 2025"
+        content: |-
+          - Engaged in Linux CLI, C++, and Python technologies applying to autonomous robot development and human-robot interaction.
+          - Utilized AI tools such as OpenCV and PyTorch to isolate video frame segments using color blob detection.
       - exptitle: "SEC504: Hacker Tools, Techniques, and Incident Handling"
+        id: "course"
         date: "February 2024 - May 2024"
         content: |-
           I've completed the SEC504 course to prepare for the GCIH certification exam. 
           This course focuses on incident response through understanding attacker techniques, 
           highlighting the reaction process, and utilizing next-generation systems.
 
-          *Provided by National Cyber Scholarship Foundation*
+          - *Provided by National Cyber Scholarship Foundation*
 
       - exptitle: "SEC401: Security Essentials - Network, Endpoint, and Cloud"
+        id: "course"
         date: "June 2023 - July 2023"
         content: |-
           I've completed SEC401, offered by SANS, in pursuit of the GSEC certification. 
           This course covers a broad number of topics within the industry including, but not limited 
           to, cloud fundamentals, Windows security, defendible network, etc.
 
-          *Provided by National Cyber Scholarship Foundation*
+          - *Provided by National Cyber Scholarship Foundation*
 
       - exptitle: "SANS Foundations: Computers, Technology and Security"
+        id: "course"
         date: "June 2021 - September 2021"
         featuredLink:
           enable: true
@@ -144,16 +161,17 @@ params:
           the core aspects of cybersecurity such as offensive/defensive security, forensics, programming, 
           and more.
 
-          *Provided by National Cyber Scholarship Foundation*
+          - *Provided by National Cyber Scholarship Foundation*
 
       - exptitle: "Freecodecamp (FCC)"
+        id: "course"
         date: "June 22 - Present"
         featuredLink:
           enable: true
           name: "View profile"
           url: "https://www.freecodecamp.org/Kyobito"
         content: |-
-          I have earned the certificate for **Scientific Computing with Python**. I've done about 300
+           I have earned the certificate for **Scientific Computing with Python**. I've done about 300
            hours of coursework (according to FCC) and have completed 5 projects involving Python along the way. 
            At the moment, I'm working towards their Front-end development course.
 

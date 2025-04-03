@@ -61,5 +61,20 @@
             document.getElementById("loading-icons").style.display = "block";
         } catch(err) {}
     }
+
+    // global button controls
+    var crb = document.getElementById("cert-button");
+    var db = document.getElementById("deg-button");
+    var wb = document.getElementById("work-button");
+    var rb = document.getElementById("research-button");
+    var cb = document.getElementById("course-button");
+    
+    // initial color for education and experience buttons
+    var prim = window.getComputedStyle(document.body).getPropertyValue("--primary-color");
+    var bg = window.getComputedStyle(document.body).getPropertyValue("--background-color");
+    db.style.backgroundColor = prim;
+    db.style.color = bg;
+    wb.style.backgroundColor = prim;
+    wb.style.color = bg;
 </script>
 

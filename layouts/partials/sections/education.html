@@ -1,14 +1,22 @@
 {{ if .Site.Params.education.enable | default false }}
 <script>
-    function select(window) {
-        if (window == "certification") {
+    function select(choice) {        
+        if (choice == "certification") {
+            crb.style.backgroundColor = window.getComputedStyle(document.body).getPropertyValue("--primary-color");
+            crb.style.color = window.getComputedStyle(document.body).getPropertyValue("--background-color");
+            db.style.removeProperty("background-color");
+            db.style.removeProperty("color");
             for (var i = 0; i < document.getElementsByClassName("certification").length; i++) {
                 document.getElementsByClassName("certification")[i].style.display = "";
             }
             for (var i = 0; i < document.getElementsByClassName("degree").length; i++) {
                 document.getElementsByClassName("degree")[i].style.display = "none";
             }
-        } else if (window == "degree") {
+        } else if (choice == "degree") {
+            db.style.backgroundColor = window.getComputedStyle(document.body).getPropertyValue("--primary-color");
+            db.style.color = window.getComputedStyle(document.body).getPropertyValue("--background-color");
+            crb.style.removeProperty("background-color");
+            crb.style.removeProperty("color");
             for (var i = 0; i < document.getElementsByClassName("certification").length; i++) {
                 document.getElementsByClassName("certification")[i].style.display = "none";
             }
@@ -16,7 +24,6 @@
                 document.getElementsByClassName("degree")[i].style.display = "";
             }
         }
-        console.log(window);
     }
 </script>
 <section id="education" class="py-5">
@@ -26,8 +33,10 @@
             <div class="row justify-content-center">
                 <div class="h-100 d-flex align-items-center justify-content-center my-3">
                     <div class="btn-group btn-group-justified">
-                        <button type="button" class="btn btn-default btn-block" onclick="select('certification')">Certifications</button>
-                        <button type="button" class="btn btn-default btn-block" onclick="select('degree')">Institutions</button>
+                        {{ $certs := where .Site.Params.education.items "id" "certification"}}
+                        {{ $deg := where .Site.Params.education.items "id" "degree"}}
+                        <button type="button" class="btn btn-default btn-block shadow-none" onclick="select('certification')" id="cert-button">Certifications {{ $certs | len }}</button>
+                        <button type="button" class="btn btn-default btn-block shadow-none" onclick="select('degree')" id="deg-button">Institutions {{ $deg | len }}</button>
                     </div>
                 </div>
             </div>
@@ -36,7 +45,7 @@
         <div class="row justify-content-center py-5">
             {{ $indexMenu := .Site.Params.education.index }}
             {{ range $index, $element := .Site.Params.education.items }}
-            <div class="col-12 p-0 {{ .id }}" style="{{ if eq .id "degree" }} display: none; {{ end }}"> 
+            <div class="col-12 p-0 {{ .id }}" style="{{ if eq .id "certification" }} display: none; {{ end }}"> 
                 <div class="row align-items-center justify-content-center m-1 mb-4">
                     {{ if $indexMenu }}
                     <div class="col-md-1 text-center me-2 p-0 d-none d-md-block">
