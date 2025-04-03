@@ -62,6 +62,17 @@
         } catch(err) {}
     }
 
+    function reassign(button, turnedOn) {
+        if (turnedOn) {
+            button.style.backgroundColor = prim;
+            button.style.color = bg;
+            console.log(button);
+        } else {
+            button.style.removeProperty("background-color");
+            button.style.removeProperty("color");
+        }
+    }
+
     // global button controls
     var crb = document.getElementById("cert-button");
     var db = document.getElementById("deg-button");

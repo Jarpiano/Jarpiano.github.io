@@ -2,10 +2,7 @@
 <script>
     function select(choice) {        
         if (choice == "certification") {
-            crb.style.backgroundColor = window.getComputedStyle(document.body).getPropertyValue("--primary-color");
-            crb.style.color = window.getComputedStyle(document.body).getPropertyValue("--background-color");
-            db.style.removeProperty("background-color");
-            db.style.removeProperty("color");
+            reassign(crb, true); reassign(db, false);
             for (var i = 0; i < document.getElementsByClassName("certification").length; i++) {
                 document.getElementsByClassName("certification")[i].style.display = "";
             }
@@ -13,10 +10,7 @@
                 document.getElementsByClassName("degree")[i].style.display = "none";
             }
         } else if (choice == "degree") {
-            db.style.backgroundColor = window.getComputedStyle(document.body).getPropertyValue("--primary-color");
-            db.style.color = window.getComputedStyle(document.body).getPropertyValue("--background-color");
-            crb.style.removeProperty("background-color");
-            crb.style.removeProperty("color");
+            reassign(crb, false); reassign(db, true);
             for (var i = 0; i < document.getElementsByClassName("certification").length; i++) {
                 document.getElementsByClassName("certification")[i].style.display = "none";
             }
