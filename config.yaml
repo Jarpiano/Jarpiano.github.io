@@ -76,8 +76,8 @@ params:
     image: /images/avatarv3.png
     button:
       enable: true
-      name: "Repository"
-      url: "https://github.com/Jarpiano/Jarpiano.github.io"
+      name: "Resume"
+      url: /pdfs/resume.pdf
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
