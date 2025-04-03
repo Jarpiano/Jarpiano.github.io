@@ -46,9 +46,12 @@
             <div class="row justify-content-center">
                 <div class="h-100 d-flex align-items-center justify-content-center my-3">
                     <div class="btn-group btn-group-justified">
-                        <button type="button" class="btn btn-default btn-block shadow-none" onclick="selectExp('work')" id="work-button">Work</button>
-                        <button type="button" class="btn btn-default btn-block shadow-none" onclick="selectExp('research')" id="research-button">Research</button>
-                        <button type="button" class="btn btn-default btn-block shadow-none" onclick="selectExp('course')" id="course-button">Courses</button>
+                        {{ $w := where .Site.Params.experience.items "id" "work"}}
+                        {{ $r := where .Site.Params.experience.items "id" "research"}}
+                        {{ $c := where .Site.Params.experience.items "id" "course"}}
+                        <button type="button" class="btn btn-default btn-block shadow-none" onclick="selectExp('work')" id="work-button">Work {{$w | len}}</button>
+                        <button type="button" class="btn btn-default btn-block shadow-none" onclick="selectExp('research')" id="research-button">Research {{$r | len}}</button>
+                        <button type="button" class="btn btn-default btn-block shadow-none" onclick="selectExp('course')" id="course-button">Courses {{$c | len}}</button>
                     </div>
                 </div>
             </div>
