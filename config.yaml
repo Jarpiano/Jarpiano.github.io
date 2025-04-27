@@ -114,6 +114,11 @@ params:
     enable: true
     length: 2
     items:
+      - exptitle: "RSOC Student Security Analyst"
+        id: "work"
+        date: "April 2025 - Present"
+        employer: "University Of Texas at Austin"
+        content: |-
       - exptitle: "Java Programming Tutor"
         id: "work"
         employer: "Katy Stem Academy LLC"
