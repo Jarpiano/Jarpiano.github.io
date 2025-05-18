@@ -119,21 +119,23 @@ params:
         date: "April 2025 - Present"
         employer: "University Of Texas at Austin"
         content: |-
+          - Currently training in information security via HackTheBox Enterprise.
       - exptitle: "Java Programming Tutor"
         id: "work"
         employer: "Katy Stem Academy LLC"
         date: "January 2025 - April 2025"
         content: |-
-          - Created 200+ slides to breaking down complex AP Computer Science A/Beginner's Java Programming content into simplified topics.
-          - Provided group tutoring sessions to secondary school students ranging from 6th - 11th grade with a focus on an introduction to Java Programming.
-          - Developed a curriculum with lecture style content and practical lab exercises.
+          - Taught introductory Java concepts to secondary school students across two curricula.
+          - Provided individualized feedback and encouraged diverse problem-solving approaches to build coding fluency.
+          - Designed lecture content, practical lab exercises, and practice quizzes to improve retention and academic performance.
       - exptitle: "Undergraduate Researcher"
         id: "research"
         employer: "University of Texas at Austin - Freshman Research Initiative (FRI)"
         date: "January 2025 - May 2025"
         content: |-
-          - Engaged in Linux CLI, C++, and Python technologies applying to autonomous robot development and human-robot interaction.
-          - Utilized AI tools such as OpenCV and PyTorch to isolate video frame segments using color blob detection.
+          - Developed AI and ROS2 nodes in a Linux CLI environment using C++ and Python.
+          - Built color-based blob detection for object tracking in robot vision using OpenCV and PyTorch.
+          - Researched and deployed LLM backed autonomous service robot for library book search and user navigation.
       - exptitle: "SEC504: Hacker Tools, Techniques, and Incident Handling"
         id: "course"
         date: "February 2024 - May 2024"
@@ -268,8 +270,8 @@ params:
           Seeking a Bachelors of Science in Computer Science and planning a concentration in cybersecurity.
 
           Relevant Coursework:
-           - C S 429 Computer Organization and Architecture ^
-           - C S 309 Autonomous Intelligent Robotics ^
+           - C S 429 Computer Organization and Architecture 
+           - C S 309 Autonomous Intelligent Robotics 
            - C S 314 Data Structures
            - C S 311 Discrete Math for Computer Science
 
@@ -277,7 +279,6 @@ params:
            - Information & Systems Security Society (Fall '24 Cyber Scholar)
            - Texas Association for Computing Machinery
 
-          <em style = "font-size: 90%">^ Current Classes</em>
       - title: "High School"
         id: "degree"
         school:
