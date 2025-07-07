@@ -4,6 +4,7 @@ date: 2024-12-21T21:06:30-06:00
 draft: false
 author: Jared Baron Panares
 tags:
+    - WriteUp
 image: /images/sans-hhc-image.png
 description:
 toc:
