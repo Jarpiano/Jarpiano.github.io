@@ -1,5 +1,5 @@
 ---
-title: "PC (Linux) Writeup"
+title: "PC (Linux) Write-Up"
 date: 2025-07-09T17:53:21-05:00
 draft: false
 author: Jarpiano
