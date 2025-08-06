@@ -119,7 +119,9 @@ params:
         date: "April 2025 - Present"
         employer: "University Of Texas at Austin"
         content: |-
-          - Currently training in information security via HackTheBox Enterprise.
+          - Simulated real-world attacks in HTB labs, gaining hands-on experience with exploitation and deep knowledge of Windows, Linux, and Active Directory; leveraged Python, C, and x86 assembly for custom analysis and scripts.
+          - Traced adversary attack chains across networks and information systems, analyzing AWS CloudTrail and Windows/Linux events using Splunk.
+          - Created incident reports aligned with NIST and MITRE ATT&CK frameworks, collaborating in a five-person team to deliver technical findings and executive level summaries.
       - exptitle: "Java Programming Tutor"
         id: "work"
         employer: "Katy Stem Academy LLC"
@@ -377,9 +379,9 @@ params:
           link: http://jarpiano.github.io/blueprint/ncsf/
         badges:
           - Cybersecurity
-      - title: Blog
+      - title: Blog & Write-Ups
         content: |-
-          Articles recollecting my thoughts on tech and software.
+          Articles recollecting my thoughts on tech and software, with a new focus on Write-Ups.
         image: /images/blog-image.jpg
         featured:
           name: See Blog
