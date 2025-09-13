@@ -114,10 +114,16 @@ params:
     enable: true
     length: 2
     items:
+      - exptitle: "Cyber Security Clinic Student"
+        id: "work"
+        date: "August 2025 - Present"
+        employer: "Texas Cyber Security Clinic"
+        content: |-
+          - Currently in-training
       - exptitle: "RSOC Student Security Analyst"
         id: "work"
         date: "April 2025 - Present"
-        employer: "University Of Texas at Austin"
+        employer: "University Of Texas at Austin - Information Security Office"
         content: |-
           - Simulated real-world attacks in HTB labs, gaining hands-on experience with exploitation and deep knowledge of Windows, Linux, and Active Directory; leveraged Python, C, and x86 assembly for custom analysis and scripts.
           - Traced adversary attack chains across networks and information systems, analyzing AWS CloudTrail and Windows/Linux events using Splunk.
@@ -267,7 +273,7 @@ params:
         school:
           name: "University of Texas at Austin"
           url: "https://www.utexas.edu/"
-        date: "2024 - 2028"
+        date: "2024 - Present"
         content: |- 
           Seeking a Bachelors of Science in Computer Science and planning a concentration in cybersecurity.
 
@@ -276,6 +282,7 @@ params:
            - C S 309 Autonomous Intelligent Robotics 
            - C S 314 Data Structures
            - C S 311 Discrete Math for Computer Science
+           - C S 439 Operating Systems
 
           Clubs:
            - Information & Systems Security Society (Fall '24 Cyber Scholar)
