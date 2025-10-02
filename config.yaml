@@ -119,7 +119,9 @@ params:
         date: "August 2025 - Present"
         employer: "Texas Cyber Security Clinic"
         content: |-
-          - Currently in-training
+          - Year-long practical cyber security class with the goal of deploying cyber security skills to assist client organizations.
+          The year is split between the first semester (training phase) and second semester (consulting phase).
+          Currently in the training phase.
       - exptitle: "RSOC Student Security Analyst"
         id: "work"
         date: "April 2025 - Present"
@@ -399,7 +401,7 @@ params:
   contact:
     enable: true
     content: You can reach me via email! My inbox is always open for academic and professional inquiries.
-    email: barcousticjp@gmail.com
+    email: jared.bp@pm.me
     btnName: Contact me
 
   skills:
@@ -410,5 +412,4 @@ params:
     socialNetworks:
       github: https://github.com/Jarpiano
       linkedin: https://www.linkedin.com/in/jared-baron-panares-841046242/
-      twitter: https://twitter.com/RealJarpiano
       instagram: https://www.instagram.com/jarpiano/
