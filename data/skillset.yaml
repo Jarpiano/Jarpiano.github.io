@@ -1,14 +1,14 @@
 items:
-  - icon: fab fa-html5
-    desc: HTML5
-  - icon: fab fa-css3-alt
-    desc: CSS3
+  - icon: fas fa-greater-than
+    desc: Splunk
+  - icon: fas fa-terminal
+    desc: PowerShell
   - icon: fab fa-js
     desc: JavaScript
-  - icon: fab fa-bootstrap
-    desc: BootStrap
-  - icon: fab fa-sass
-    desc: SASS
+  - icon: fas fa-globe
+    desc: OSINT
+  - icon: fas fa-fish
+    desc: WireShark
   - icon: fab fa-java
     desc: Java
   - icon: fab fa-python

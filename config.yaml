@@ -72,7 +72,7 @@ params:
     title: "I'm Jared"
     subtitle: "CS Major @ UT Austin"
     content: |- 
-      An undergraduate student with aspirations in the broad field of computer science. <br>An aficionado of programming, cybersecurity, and web development. <br>Looking for opportunities in network security and software.
+      An undergraduate student dedicated to SWE and Cyber Security. <br>Jared currently works for UT RSOC as a SOC analyst and is an incoming SWE intern at ServiceNow. Jared is always looking for opportunities in network security and software.
     image: /images/avatarv3.png
     button:
       enable: true
@@ -114,14 +114,19 @@ params:
     enable: true
     length: 2
     items:
+      - exptitle: "Intern - Associate Software Engineer"
+        id: "work"
+        date: "May 2026 - August 2026"
+        employer: "ServiceNow"
+        content: |-
+          - Incoming ServiceNow SWE Intern focused on Front-End Technologies and Generative AI capabilities.
       - exptitle: "Cyber Security Clinic Student"
         id: "work"
         date: "August 2025 - Present"
         employer: "Texas Cyber Security Clinic"
         content: |-
-          - Year-long practical cyber security class with the goal of deploying cyber security skills to assist client organizations.
-          The year is split between the first semester (training phase) and second semester (consulting phase).
-          Currently in the training phase.
+          - Year-long practical cyber security course with the provided training and cyber security consulting activity.
+          - Currently assisting government clients to improve client cyber security posture.
       - exptitle: "RSOC Student Security Analyst"
         id: "work"
         date: "April 2025 - Present"
@@ -280,6 +285,8 @@ params:
           Seeking a Bachelors of Science in Computer Science and planning a concentration in cybersecurity.
 
           Relevant Coursework:
+           - I 320 Applied Cybersecurity Clinic Practicum
+           - C S 331 Algorithms and Complexity
            - C S 429 Computer Organization and Architecture 
            - C S 309 Autonomous Intelligent Robotics 
            - C S 314 Data Structures
