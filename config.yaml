@@ -120,14 +120,14 @@ params:
         employer: "ServiceNow"
         content: |-
           - Incoming ServiceNow SWE Intern focused on Front-End Technologies and Generative AI capabilities.
-      - exptitle: "Cyber Security Clinic Student"
+      - exptitle: "Student Cyber Security Consultant"
         id: "work"
         date: "August 2025 - Present"
         employer: "Texas Cyber Security Clinic"
         content: |-
           - Year-long practical cyber security course with the provided training and cyber security consulting activity.
           - Currently assisting government clients to improve client cyber security posture.
-      - exptitle: "RSOC Student Security Analyst"
+      - exptitle: "RSOC Student Analyst"
         id: "work"
         date: "April 2025 - Present"
         employer: "University Of Texas at Austin - Information Security Office"
@@ -203,6 +203,28 @@ params:
     enable: true
     # index: true
     items:
+      - title: "Hack The Box Certified Defensive Security Analyst (HTB CDSA)"
+        id: "certification"
+        school: 
+          name : "Issued by Hack The Box"
+          url : "https://www.hackthebox.com/"
+        date : "2026"
+        valid : "2026 Beyond"
+        content: |-
+          HTB Certified Defensive Security Analyst (HTB CDSA) certification evaluates the candidates’ knowledge on the following:
+            - SOC Processes & Methodologies
+            - SIEM Operations (ELK/Splunk)
+            - Tactical Analytics
+            - Log Analysis
+            - Threat Hunting
+            - Active Directory Attack Analysis
+            - Network Traffic Analysis (Incl. IDS/IPS)
+            - Malware Analysis
+            - DFIR Operations
+        featuredLink:
+          enable: true
+          name: "See my badge"
+          url: "https://www.credly.com/badges/198ae848-23e1-48e6-9db8-0d9dd356cd88/public_url"
       - title: "GIAC Certified Incident Handler (GCIH)"
         id: "certification"
         school: 
